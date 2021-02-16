@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E659FCB125DC0AE40079E9F6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FCB025DC0AE40079E9F6 /* Tests_iOS.swift */; };
+		E659FCBC25DC0AE40079E9F6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FCBB25DC0AE40079E9F6 /* Tests_macOS.swift */; };
+		E659FCBE25DC0AE40079E9F6 /* SquareDancingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FC9525DC0AE30079E9F6 /* SquareDancingApp.swift */; };
+		E659FCBF25DC0AE40079E9F6 /* SquareDancingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FC9525DC0AE30079E9F6 /* SquareDancingApp.swift */; };
+		E659FCC025DC0AE40079E9F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FC9625DC0AE30079E9F6 /* ContentView.swift */; };
+		E659FCC125DC0AE40079E9F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FC9625DC0AE30079E9F6 /* ContentView.swift */; };
+		E659FCC225DC0AE40079E9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E659FC9725DC0AE40079E9F6 /* Assets.xcassets */; };
+		E659FCC325DC0AE40079E9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E659FC9725DC0AE40079E9F6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E659FCAD25DC0AE40079E9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659FC9025DC0AE30079E9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E659FC9B25DC0AE40079E9F6;
+			remoteInfo = "SquareDancing (iOS)";
+		};
+		E659FCB825DC0AE40079E9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659FC9025DC0AE30079E9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E659FCA325DC0AE40079E9F6;
+			remoteInfo = "SquareDancing (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E659FC9525DC0AE30079E9F6 /* SquareDancingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareDancingApp.swift; sourceTree = "<group>"; };
+		E659FC9625DC0AE30079E9F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E659FC9725DC0AE40079E9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E659FC9C25DC0AE40079E9F6 /* SquareDancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareDancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E659FC9F25DC0AE40079E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E659FCA425DC0AE40079E9F6 /* SquareDancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareDancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E659FCA625DC0AE40079E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E659FCA725DC0AE40079E9F6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E659FCAC25DC0AE40079E9F6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E659FCB025DC0AE40079E9F6 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		E659FCB225DC0AE40079E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E659FCB725DC0AE40079E9F6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E659FCBB25DC0AE40079E9F6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		E659FCBD25DC0AE40079E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E659FC9925DC0AE40079E9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCA125DC0AE40079E9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCA925DC0AE40079E9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCB425DC0AE40079E9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E659FC8F25DC0AE30079E9F6 = {
+			isa = PBXGroup;
+			children = (
+				E659FC9425DC0AE30079E9F6 /* Shared */,
+				E659FC9E25DC0AE40079E9F6 /* iOS */,
+				E659FCA525DC0AE40079E9F6 /* macOS */,
+				E659FCAF25DC0AE40079E9F6 /* Tests iOS */,
+				E659FCBA25DC0AE40079E9F6 /* Tests macOS */,
+				E659FC9D25DC0AE40079E9F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E659FC9425DC0AE30079E9F6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E659FC9525DC0AE30079E9F6 /* SquareDancingApp.swift */,
+				E659FC9625DC0AE30079E9F6 /* ContentView.swift */,
+				E659FC9725DC0AE40079E9F6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E659FC9D25DC0AE40079E9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E659FC9C25DC0AE40079E9F6 /* SquareDancing.app */,
+				E659FCA425DC0AE40079E9F6 /* SquareDancing.app */,
+				E659FCAC25DC0AE40079E9F6 /* Tests iOS.xctest */,
+				E659FCB725DC0AE40079E9F6 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E659FC9E25DC0AE40079E9F6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E659FC9F25DC0AE40079E9F6 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E659FCA525DC0AE40079E9F6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E659FCA625DC0AE40079E9F6 /* Info.plist */,
+				E659FCA725DC0AE40079E9F6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E659FCAF25DC0AE40079E9F6 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E659FCB025DC0AE40079E9F6 /* Tests_iOS.swift */,
+				E659FCB225DC0AE40079E9F6 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		E659FCBA25DC0AE40079E9F6 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E659FCBB25DC0AE40079E9F6 /* Tests_macOS.swift */,
+				E659FCBD25DC0AE40079E9F6 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E659FC9B25DC0AE40079E9F6 /* SquareDancing (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E659FCC625DC0AE40079E9F6 /* Build configuration list for PBXNativeTarget "SquareDancing (iOS)" */;
+			buildPhases = (
+				E659FC9825DC0AE40079E9F6 /* Sources */,
+				E659FC9925DC0AE40079E9F6 /* Frameworks */,
+				E659FC9A25DC0AE40079E9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SquareDancing (iOS)";
+			productName = "SquareDancing (iOS)";
+			productReference = E659FC9C25DC0AE40079E9F6 /* SquareDancing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E659FCA325DC0AE40079E9F6 /* SquareDancing (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E659FCC925DC0AE40079E9F6 /* Build configuration list for PBXNativeTarget "SquareDancing (macOS)" */;
+			buildPhases = (
+				E659FCA025DC0AE40079E9F6 /* Sources */,
+				E659FCA125DC0AE40079E9F6 /* Frameworks */,
+				E659FCA225DC0AE40079E9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SquareDancing (macOS)";
+			productName = "SquareDancing (macOS)";
+			productReference = E659FCA425DC0AE40079E9F6 /* SquareDancing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E659FCAB25DC0AE40079E9F6 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E659FCCC25DC0AE40079E9F6 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				E659FCA825DC0AE40079E9F6 /* Sources */,
+				E659FCA925DC0AE40079E9F6 /* Frameworks */,
+				E659FCAA25DC0AE40079E9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E659FCAE25DC0AE40079E9F6 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = E659FCAC25DC0AE40079E9F6 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E659FCB625DC0AE40079E9F6 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E659FCCF25DC0AE40079E9F6 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				E659FCB325DC0AE40079E9F6 /* Sources */,
+				E659FCB425DC0AE40079E9F6 /* Frameworks */,
+				E659FCB525DC0AE40079E9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E659FCB925DC0AE40079E9F6 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = E659FCB725DC0AE40079E9F6 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E659FC9025DC0AE30079E9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E659FC9B25DC0AE40079E9F6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E659FCA325DC0AE40079E9F6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E659FCAB25DC0AE40079E9F6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E659FC9B25DC0AE40079E9F6;
+					};
+					E659FCB625DC0AE40079E9F6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E659FCA325DC0AE40079E9F6;
+					};
+				};
+			};
+			buildConfigurationList = E659FC9325DC0AE30079E9F6 /* Build configuration list for PBXProject "SquareDancing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E659FC8F25DC0AE30079E9F6;
+			productRefGroup = E659FC9D25DC0AE40079E9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E659FC9B25DC0AE40079E9F6 /* SquareDancing (iOS) */,
+				E659FCA325DC0AE40079E9F6 /* SquareDancing (macOS) */,
+				E659FCAB25DC0AE40079E9F6 /* Tests iOS */,
+				E659FCB625DC0AE40079E9F6 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E659FC9A25DC0AE40079E9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E659FCC225DC0AE40079E9F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCA225DC0AE40079E9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E659FCC325DC0AE40079E9F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCAA25DC0AE40079E9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCB525DC0AE40079E9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E659FC9825DC0AE40079E9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E659FCC025DC0AE40079E9F6 /* ContentView.swift in Sources */,
+				E659FCBE25DC0AE40079E9F6 /* SquareDancingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCA025DC0AE40079E9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E659FCC125DC0AE40079E9F6 /* ContentView.swift in Sources */,
+				E659FCBF25DC0AE40079E9F6 /* SquareDancingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCA825DC0AE40079E9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E659FCB125DC0AE40079E9F6 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E659FCB325DC0AE40079E9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E659FCBC25DC0AE40079E9F6 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E659FCAE25DC0AE40079E9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E659FC9B25DC0AE40079E9F6 /* SquareDancing (iOS) */;
+			targetProxy = E659FCAD25DC0AE40079E9F6 /* PBXContainerItemProxy */;
+		};
+		E659FCB925DC0AE40079E9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E659FCA325DC0AE40079E9F6 /* SquareDancing (macOS) */;
+			targetProxy = E659FCB825DC0AE40079E9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E659FCC425DC0AE40079E9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E659FCC525DC0AE40079E9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E659FCC725DC0AE40079E9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V3M4WF9BF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.SquareDancing;
+				PRODUCT_NAME = SquareDancing;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E659FCC825DC0AE40079E9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V3M4WF9BF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.SquareDancing;
+				PRODUCT_NAME = SquareDancing;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E659FCCA25DC0AE40079E9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4V3M4WF9BF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.SquareDancing;
+				PRODUCT_NAME = SquareDancing;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E659FCCB25DC0AE40079E9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4V3M4WF9BF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.SquareDancing;
+				PRODUCT_NAME = SquareDancing;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E659FCCD25DC0AE40079E9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V3M4WF9BF;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SquareDancing (iOS)";
+			};
+			name = Debug;
+		};
+		E659FCCE25DC0AE40079E9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V3M4WF9BF;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SquareDancing (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E659FCD025DC0AE40079E9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4V3M4WF9BF;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SquareDancing (macOS)";
+			};
+			name = Debug;
+		};
+		E659FCD125DC0AE40079E9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4V3M4WF9BF;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SquareDancing (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E659FC9325DC0AE30079E9F6 /* Build configuration list for PBXProject "SquareDancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E659FCC425DC0AE40079E9F6 /* Debug */,
+				E659FCC525DC0AE40079E9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E659FCC625DC0AE40079E9F6 /* Build configuration list for PBXNativeTarget "SquareDancing (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E659FCC725DC0AE40079E9F6 /* Debug */,
+				E659FCC825DC0AE40079E9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E659FCC925DC0AE40079E9F6 /* Build configuration list for PBXNativeTarget "SquareDancing (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E659FCCA25DC0AE40079E9F6 /* Debug */,
+				E659FCCB25DC0AE40079E9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E659FCCC25DC0AE40079E9F6 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E659FCCD25DC0AE40079E9F6 /* Debug */,
+				E659FCCE25DC0AE40079E9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E659FCCF25DC0AE40079E9F6 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E659FCD025DC0AE40079E9F6 /* Debug */,
+				E659FCD125DC0AE40079E9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E659FC9025DC0AE30079E9F6 /* Project object */;
+}
