@@ -15,6 +15,10 @@
 		E659FCC125DC0AE40079E9F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FC9625DC0AE30079E9F6 /* ContentView.swift */; };
 		E659FCC225DC0AE40079E9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E659FC9725DC0AE40079E9F6 /* Assets.xcassets */; };
 		E659FCC325DC0AE40079E9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E659FC9725DC0AE40079E9F6 /* Assets.xcassets */; };
+		E659FCDB25DC0E2E0079E9F6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FCDA25DC0E2E0079E9F6 /* CircleImage.swift */; };
+		E659FCDC25DC0E2E0079E9F6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FCDA25DC0E2E0079E9F6 /* CircleImage.swift */; };
+		E659FCE225DC0E9B0079E9F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FCE125DC0E9B0079E9F6 /* MapView.swift */; };
+		E659FCE325DC0E9B0079E9F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659FCE125DC0E9B0079E9F6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		E659FCB725DC0AE40079E9F6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E659FCBB25DC0AE40079E9F6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E659FCBD25DC0AE40079E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E659FCDA25DC0E2E0079E9F6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		E659FCE125DC0E9B0079E9F6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			children = (
 				E659FC9525DC0AE30079E9F6 /* SquareDancingApp.swift */,
 				E659FC9625DC0AE30079E9F6 /* ContentView.swift */,
+				E659FCDA25DC0E2E0079E9F6 /* CircleImage.swift */,
+				E659FCE125DC0E9B0079E9F6 /* MapView.swift */,
 				E659FC9725DC0AE40079E9F6 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,7 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E659FCC025DC0AE40079E9F6 /* ContentView.swift in Sources */,
+				E659FCE225DC0E9B0079E9F6 /* MapView.swift in Sources */,
 				E659FCBE25DC0AE40079E9F6 /* SquareDancingApp.swift in Sources */,
+				E659FCDB25DC0E2E0079E9F6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E659FCC125DC0AE40079E9F6 /* ContentView.swift in Sources */,
+				E659FCE325DC0E9B0079E9F6 /* MapView.swift in Sources */,
 				E659FCBF25DC0AE40079E9F6 /* SquareDancingApp.swift in Sources */,
+				E659FCDC25DC0E2E0079E9F6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
