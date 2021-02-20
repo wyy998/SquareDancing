@@ -54,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		E602CCC225E1361600D5869A /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		E602CCCF25E1701900D5869A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E659FC9525DC0AE30079E9F6 /* SquareDancingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareDancingApp.swift; sourceTree = "<group>"; };
 		E659FC9625DC0AE30079E9F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E659FC9C25DC0AE40079E9F6 /* SquareDancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareDancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +134,7 @@
 		E659FC8F25DC0AE30079E9F6 = {
 			isa = PBXGroup;
 			children = (
+				E602CCCF25E1701900D5869A /* .gitignore */,
 				E659FC9425DC0AE30079E9F6 /* Shared */,
 				E659FC9E25DC0AE40079E9F6 /* iOS */,
 				E659FCA525DC0AE40079E9F6 /* macOS */,
