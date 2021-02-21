@@ -10,10 +10,10 @@ import SwiftUI
 @main
 struct SquareDancingApp: App {
   @StateObject private var modelData = ModelData()
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-              .environmentObject(modelData)
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(modelData)
     }
+  }
 }
